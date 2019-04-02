@@ -40,7 +40,7 @@ JOIN Album
 ON Track.AlbumId = Album.AlbumId
 WHERE Track.name LIKE 'A%' AND Track.Composer NOT LIKE '';
 ```
-#Q4 
+# Q4 
 The Chinook team would like to throw a promotional Music Festival for their top 10 customers who have spent the most in a single invoice. Write a query that returns the first name, last name, and invoice total for the top 10 invoices ordered by invoice total descending.
 ```sql
 SELECT C.Firstname,C.Lastname,I.Total
